@@ -31,7 +31,7 @@ O projeto está dividido em **dois arquivos principais**:
 
 ## Classes 📚
 
-### 🔹 `Item`
+### `Item`
 Classe base para representar filmes e jogos.  
 Atributos principais:
 - `id` → Identificação do item  
@@ -44,19 +44,19 @@ Métodos:
 
 ---
 
-### 🔹 `Filme (Item)`
+### `Filme (Item)`
 Herdada de `Item`.  
 Atributos extras: `gênero` e `duração`.
 
 ---
 
-### 🔹 `Jogo (Item)`
+### `Jogo (Item)`
 Herdada de `Item`.  
 Atributos extras: `plataforma` e `faixa etária`.
 
 ---
 
-### 🔹 `Cliente`
+### `Cliente`
 Representa um cliente da locadora.  
 Atributos: `nome`, `cpf` e `itens_locados`.  
 Métodos:
@@ -66,7 +66,7 @@ Métodos:
 
 ---
 
-### 🔹 `Locadora`
+### `Locadora`
 Gerencia todos os **clientes e itens**.  
 Métodos:
 - `cadastroCliente(cliente)`  
